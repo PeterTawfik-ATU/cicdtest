@@ -24,9 +24,9 @@ jobs:
     - name: AWS CLI
       run: dotnet tool install -g Amazon.Lambda.Tools
     - name: Restore dependencies
-      run: dotnet restore Services.sln
+      run: dotnet restore cicdtest.sln
     - name: Build
-      run: dotnet build --no-restore Services.sln
+      run: dotnet build --no-restore cicdtest.sln
     - name: Deploy to Lambda
       working-directory: ./src/cicdtest
       run: dotnet lambda deploy-serverless
