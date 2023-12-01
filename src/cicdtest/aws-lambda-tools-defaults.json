@@ -8,7 +8,7 @@
   "profile": "",
   "region": "eu-central-1",
   "configuration": "Release",
-  "s3-prefix": "cicdtest/",
+  "s3-prefix": "cicdtest20231/",
   "template": "serverless.template",
   "template-parameters": ""
 }
