@@ -10,7 +10,7 @@
       "Properties": {
         "Handler": "cicdtest",
         "Runtime": "dotnet6",
-        "CodeUri": "",
+        "CodeUri": "cicdtest",
         "MemorySize": 256,
         "Timeout": 30,
         "Role": null,
