@@ -6,9 +6,9 @@
     "All the command line options for the Lambda command can be specified in this file."
   ],
   "profile": "",
-  "region": "eu-central-1",
+  "region": "us-east-1",
   "configuration": "Release",
-  "s3-prefix": "cicdtest20231/",
+  "s3-prefix": "s3://cicdtest20232/",
   "template": "serverless.template",
   "template-parameters": ""
 }
