@@ -28,5 +28,5 @@ jobs:
     - name: Build
       run: dotnet build --no-restore cicdtest.sln
     - name: Deploy to Lambda
-      working-directory: ./src/cicdtest
+      working-directory: ./src
       run: dotnet lambda deploy-serverless
