@@ -32,5 +32,5 @@ jobs:
     - name: Build
       run: dotnet build --no-restore Services.sln
     - name: Deploy to Lambda
-      working-directory: ./Services/ApiServices
+      working-directory: ./src/cicdtest
       run: dotnet lambda deploy-serverless
